@@ -1,0 +1,46 @@
+<html>
+    <head>
+        <title>
+            Welcome to Javascript!
+        </title>
+    </head>
+    <body>
+        <h1>
+            This is H1 heading!
+            <h1 id="my_content"></h1>
+        </h1>
+        <h2
+            style="display: none;"
+            id="change-content-heading">
+            This is H2 heading!
+        </h2>
+        <button onclick="ChangeContent()">Change</button>
+        <p>
+            This is one of the test project!
+        </p>
+        <hr>
+        <script src="myjs.js"></script> 
+
+        <script>
+            // checking the sample lines using javascript 
+            /*Author: Aiman Zehra
+            */
+           // document.write("This is the first line from Javascript!");
+           // document.write("<h2>This is the second line of Javascript!</h2>");
+           // document.write(7+5)
+           // alert("This is a warning")
+          //  window.alert("This is an alert")
+            //document.write(prompt("Enter Name"))
+            //name = prompt("Enter name")
+          //  document.write(name)
+          //  confirm("Would you like to exit")
+          document.getElementById("my_content").innerHTML="This is dynamic testing of an id"
+          var a = 2
+          var b = 6
+          document.write("a + b = ", (a+b))
+
+        </script>
+    </body>
+
+</html>
+

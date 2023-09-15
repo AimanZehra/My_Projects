@@ -1,0 +1,8 @@
+# Create Virtual Env: python -m venv venv
+# Activate Virtual Env: venv\Scripts\activate
+# Deactivate Virtual Env: Deactivate
+# Install fastapi: pip install fastapi
+# Install ASGI web server implementation: pip install "uvicorn[standard]" 
+# Create a main file
+# For running the server: uvicorn main:app --reload
+
