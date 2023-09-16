@@ -13,3 +13,16 @@ eg:
 9. We register our models which we will have created earlier in admin.py (Because we are creating admin panel)
 10. To create admin (Username and password), we use below commands:
     python manage.py createsuperuser
+11. Used below magic  method (function) to make the heading of the category visible according to the Title:
+        def __str__(self):
+        return self.title
+
+12. Made folder Media, and will add in settings.py to display the images in category:
+STATIC_URL = 'static/'
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+ And also make chnages in urls.py
+
+13. Copy the starter page from bootstrap4 webpage and paste it in home.html
+14. Add navbar.html file for the navigation bar
+15. We can use 'material color' from wesite for taking the desired color

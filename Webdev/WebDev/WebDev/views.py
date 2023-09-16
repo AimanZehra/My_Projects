@@ -12,3 +12,6 @@ def show_about_page (request):
         'about': about
     }
     return render(request, "about.html", data)
+
+def show_home_page (request):
+      return render(request, "home.html", {})
