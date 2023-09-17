@@ -25,4 +25,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 13. Copy the starter page from bootstrap4 webpage and paste it in home.html
 14. Add navbar.html file for the navigation bar
-15. We can use 'material color' from wesite for taking the desired color
+15. We can use 'material color' from wesite for taking the desired color.
+16. 
