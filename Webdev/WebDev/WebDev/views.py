@@ -21,3 +21,15 @@ def show_home_page (request):
 
 
       return render(request, "home.html", data)
+
+def show_category_page (request,cid):
+      print(cid)
+      cats = Category.objects.all()
+      
+      category = Category.objects.get(pk=cid)
+    
+      images = Image.objects.filter(cat = category)
+      data = {'images': images, 'cats': cats}
+
+
+      return render(request, "home.html", data)
