@@ -25,5 +25,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('aboutus/',show_about_page),
     path('home/', show_home_page),
-    path('category/<int:cid/', show_category_page),
+    path('category/<int:cid>/', show_category_page),
 ]+static(settings.MEDIA_URL,document_root=settings.MEDIA_ROOT)
