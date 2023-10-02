@@ -16,3 +16,8 @@
 * An angular app consist of component and by default angular CLI provides us with one App Component.
 
 * Each component has four important files component.ts, component.html, component.css & component.spec.ts file. component.ts is the main component file.
+
+### Component
+1. A Class -> It ontains the code required for the view template.
+2. A ViewTemplate -> It defines the user interface. It contains the HTML, directives & data binding.
+3. A Decorator -> It adds meta data to the class, making it a component.
