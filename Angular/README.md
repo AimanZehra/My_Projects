@@ -3,13 +3,13 @@
 1. Install latest version of nodejs
 
 2. Install angular CLI->
-    'npm install -global @angular/cli@latest'
+* 'npm install -global @angular/cli@latest'
 
 3. To create an angular project->
-    'ng new Project-name'
+* 'ng new Project-name'
 
 4. To compile and run an Angular project we use->
-    'ng serve' or 'npx ng serve'
+* 'ng serve' or 'npx ng serve'
 
 * When we run angular app, index.html file gets rendered in the webpage. This is the main HTML filewhose content will change when we navigate around or do some other stuffs on webpage.
 
